@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <title>Currículum Vitae - María José García Huarca</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Figuras decorativas -->
+  <div class="circle" aria-hidden="true"></div>
+  <div class="triangle" aria-hidden="true"></div>
+
+  </div>
+
+  <header>
+    <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+         alt="Foto de perfil de mujer profesional" 
+         class="profile-photo">
+    <h1>María José García Huarca</h1>
+    <p>✉️ h2002maria@gmail.com | 🌐 www.mariajosegarcia.com | 📍 Ciudad de Santiago, Chile  | 💼 LinkedIn: linkedin.com/in/mariajose</p>
+  </header>
+
+  <!-- Botones para ajustar tamaño -->
+  <div class="zoom-buttons" role="group" aria-label="Controles de tamaño de texto">
+    <button onclick="zoomIn()">Aumentar Texto</button>
+    <button onclick="zoomOut()">Reducir Texto</button>
+  </div>
+
+  <main>
+    <!-- Perfil Profesional -->
+    <section>
+      <h2>Perfil Profesional</h2>
+      <p>
+        Estudiante de Ingeniería en Informática apasionada por el diseño inclusivo, el desarrollo web accesible y la optimización de la experiencia del usuario. 
+        Con habilidades sólidas en programación, trabajo en equipo y resolución de problemas, buscando contribuir en proyectos tecnológicos innovadores.
+      </p>
+    </section>
+
+    <!-- Habilidades -->
+    <section>
+      <h2>Habilidades Clave</h2>
+      <h3>Técnicas</h3>
+      <ul>
+        <li>HTML, CSS, C++, C, Javascript</li>
+        <li>SQL  intermedio</li>
+      </ul>
+
+      <h3>Blandas</h3>
+      <ul>
+        <li>Comunicación efectiva</li>
+        <li>Liderazgo en proyectos estudiantiles</li>
+        <li>Resolución de problemas</li>
+        <li>Trabajo colaborativo</li>
+      </ul>
+    </section>
+
+    <!-- Experiencia Académica -->
+    <section>
+      <h2>Experiencia Académica</h2>
+
+      <div class="experiencia">
+        <h3>Desarrolladora Web </h3>
+        <p>📍 Ciudad de Santiago, Chile | 📅 Septiembre 2024–Diciembre 2024</p>
+        <ul>
+          <li>Diseñé y desarrollé un sitio web accesible para una pastelería local.</li>
+           <hr>
+      <li>Implementé prácticas de diseño inclusivo y navegación clara, asegurando la accesibilidad para todos los usuarios.</li>
+            <hr>
+      <li>Coordiné la distribución de tareas dentro del equipo y gestionando la implementación de correcciones y mejoras solicitadas.</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <!-- Certificaciones y Cursos -->
+    <section>
+      <h2>Certificaciones y Cursos</h2>
+      <p>Aunque actualmente no tengo certificaciones formales, he aprendido habilidades clave a través de proyectos personales y recursos en línea como tutoriales y documentación.</p>
+  <ul>
+    <li>Autodidacta en desarrollo web (HTML, CSS, JavaScript)</li>
+    <li>Actualmente explorando nuevas tecnologías y herramientas para mejorar mis habilidades en accesibilidad web.</li>
+  </ul>
+</section>
+
+    <!-- Idiomas -->
+    <section>
+      <h2>Idiomas</h2>
+      <ul>
+        <li>Español – Nativo</li>
+        <li>Inglés – B1 (Intermedio)</li>
+      </ul>
+    </section>
+
+    <!-- Opcionales -->
+    <section>
+      <h2>Proyectos Personales / Freelance</h2>
+      <p>Desarrollo de páginas web inclusivas para pequeñas empresas locales (trabajo freelance).</p>
+    </section>
+
+    <section>
+      <h2>Referencias</h2>
+      <p>Disponibles a solicitud.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    📍 José Joaquín Perez 908, Ciudad de Santiago | ☎️ +56 929856725 | ✉️ h2002maria@gmail.com
+  </footer>
+
+  <!-- Script para Zoom de texto -->
+  <script>
+  let fontSize = 16;
+
+  function zoomIn() {
+    fontSize += 2;
+    document.body.style.fontSize = fontSize + 'px';
+  }
+
+  function zoomOut() {
+    if (fontSize > 10) {
+      fontSize -= 2;
+      document.body.style.fontSize = fontSize + 'px';
+    }
+  }
+  </script>
+
+</body>
+</html>
